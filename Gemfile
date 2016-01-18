@@ -43,3 +43,10 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
+group :development do
+  gem 'guard'
+  gem 'guard-shell'
+  gem 'guard-livereload'
+end
